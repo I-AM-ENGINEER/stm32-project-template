@@ -1,0 +1,262 @@
+{
+  "name": "template",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps",
+    "Source",
+    "CubeGenerated/Core/Src"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [
+      {
+        "path": "CubeGenerated/startup_stm32f103x6.s"
+      }
+    ],
+    "folders": [
+      {
+        "name": "CMSIS",
+        "files": [
+          {
+            "path": "CubeGenerated/Core/Src/system_stm32f1xx.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "HAL",
+        "files": [
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cec.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac_ex.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_eth.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_hcd.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_irda.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_mmc.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nand.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nor.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pccard.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_smartcard.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_adc.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_crc.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dac.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_i2c.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rtc.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_spi.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c"
+          },
+          {
+            "path": "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "816fcfac7681040e07248ea276f7e0ce"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [
+        "<virtual_root>/CMSIS"
+      ],
+      "toolchain": "GCC",
+      "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "./CubeGenerated/STM32F103C6Tx_FLASH.ld",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [],
+          "ROM": []
+        },
+        "options": "null"
+      },
+      "uploader": "JLink",
+      "uploadConfig": {
+        "bin": "",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "null",
+          "cpuName": "null"
+        },
+        "proType": 1,
+        "speed": 8000,
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "Include",
+          "CubeGenerated/Core/Inc",
+          "CubeGenerated/Drivers/CMSIS/Include",
+          "CubeGenerated/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+          "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Inc",
+          "CubeGenerated/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": []
+      }
+    }
+  },
+  "version": "3.3"
+}

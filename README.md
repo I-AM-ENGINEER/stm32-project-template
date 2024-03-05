@@ -1,0 +1,1 @@
+STM32 project remplate for vscode EIDE (default MCU STM32F103C6)
